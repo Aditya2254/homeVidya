@@ -1,0 +1,19 @@
+package com.homevidya.app.homevidya.exception;
+
+public class ValidationException extends RuntimeException {
+    private String errorCode;
+
+    public ValidationException(String message) {
+        super(message);
+        this.errorCode = "VALIDATION_ERROR";
+    }
+
+    public ValidationException(String message, String errorCode) {
+        super(message);
+        this.errorCode = errorCode;
+    }
+
+    public String getErrorCode() {
+        return errorCode;
+    }
+}
