@@ -1,4 +1,4 @@
-package com.homevidya.app.homevidya.entity;
+package com.homevidya.app.homevidya.entities;
 
 import jakarta.persistence.*;
 import lombok.Data;

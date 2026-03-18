@@ -1,6 +1,6 @@
 package com.homevidya.app.homevidya.repository;
 
-import com.homevidya.app.homevidya.entity.MobileVerification;
+import com.homevidya.app.homevidya.entities.MobileVerification;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface MobileVerificationRepository extends JpaRepository<MobileVerification, Long> {
